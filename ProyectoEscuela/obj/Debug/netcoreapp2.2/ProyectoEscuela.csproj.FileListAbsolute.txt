@@ -1,0 +1,11 @@
+C:\Users\sebas\Desktop\Self Training\.net\ProyectoEscuela\bin\Debug\netcoreapp2.2\ProyectoEscuela.deps.json
+C:\Users\sebas\Desktop\Self Training\.net\ProyectoEscuela\bin\Debug\netcoreapp2.2\ProyectoEscuela.runtimeconfig.json
+C:\Users\sebas\Desktop\Self Training\.net\ProyectoEscuela\bin\Debug\netcoreapp2.2\ProyectoEscuela.runtimeconfig.dev.json
+C:\Users\sebas\Desktop\Self Training\.net\ProyectoEscuela\bin\Debug\netcoreapp2.2\ProyectoEscuela.dll
+C:\Users\sebas\Desktop\Self Training\.net\ProyectoEscuela\bin\Debug\netcoreapp2.2\ProyectoEscuela.pdb
+C:\Users\sebas\Desktop\Self Training\.net\ProyectoEscuela\obj\Debug\netcoreapp2.2\ProyectoEscuela.csprojAssemblyReference.cache
+C:\Users\sebas\Desktop\Self Training\.net\ProyectoEscuela\obj\Debug\netcoreapp2.2\ProyectoEscuela.csproj.CoreCompileInputs.cache
+C:\Users\sebas\Desktop\Self Training\.net\ProyectoEscuela\obj\Debug\netcoreapp2.2\ProyectoEscuela.AssemblyInfoInputs.cache
+C:\Users\sebas\Desktop\Self Training\.net\ProyectoEscuela\obj\Debug\netcoreapp2.2\ProyectoEscuela.AssemblyInfo.cs
+C:\Users\sebas\Desktop\Self Training\.net\ProyectoEscuela\obj\Debug\netcoreapp2.2\ProyectoEscuela.dll
+C:\Users\sebas\Desktop\Self Training\.net\ProyectoEscuela\obj\Debug\netcoreapp2.2\ProyectoEscuela.pdb

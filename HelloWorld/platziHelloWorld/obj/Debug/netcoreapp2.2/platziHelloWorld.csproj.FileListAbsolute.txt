@@ -1,0 +1,11 @@
+C:\Users\sebas\Desktop\Self Training\.net\HelloWorld\platziHelloWorld\bin\Debug\netcoreapp2.2\platziHelloWorld.deps.json
+C:\Users\sebas\Desktop\Self Training\.net\HelloWorld\platziHelloWorld\bin\Debug\netcoreapp2.2\platziHelloWorld.runtimeconfig.json
+C:\Users\sebas\Desktop\Self Training\.net\HelloWorld\platziHelloWorld\bin\Debug\netcoreapp2.2\platziHelloWorld.runtimeconfig.dev.json
+C:\Users\sebas\Desktop\Self Training\.net\HelloWorld\platziHelloWorld\bin\Debug\netcoreapp2.2\platziHelloWorld.dll
+C:\Users\sebas\Desktop\Self Training\.net\HelloWorld\platziHelloWorld\bin\Debug\netcoreapp2.2\platziHelloWorld.pdb
+C:\Users\sebas\Desktop\Self Training\.net\HelloWorld\platziHelloWorld\obj\Debug\netcoreapp2.2\platziHelloWorld.csprojAssemblyReference.cache
+C:\Users\sebas\Desktop\Self Training\.net\HelloWorld\platziHelloWorld\obj\Debug\netcoreapp2.2\platziHelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\sebas\Desktop\Self Training\.net\HelloWorld\platziHelloWorld\obj\Debug\netcoreapp2.2\platziHelloWorld.AssemblyInfoInputs.cache
+C:\Users\sebas\Desktop\Self Training\.net\HelloWorld\platziHelloWorld\obj\Debug\netcoreapp2.2\platziHelloWorld.AssemblyInfo.cs
+C:\Users\sebas\Desktop\Self Training\.net\HelloWorld\platziHelloWorld\obj\Debug\netcoreapp2.2\platziHelloWorld.dll
+C:\Users\sebas\Desktop\Self Training\.net\HelloWorld\platziHelloWorld\obj\Debug\netcoreapp2.2\platziHelloWorld.pdb
