@@ -12,15 +12,33 @@ namespace ProyectoEscuela
       var escuela = new Escuela("Escuela De Jedis", 1993, TiposEscuela.Secundaria,
                                  pais: "Colombia", ciudad: "Bogotá");
 
-      var listaCursos = new List<Curso>();
-      escuela.Cursos = new Curso[]{
-                                new Curso(){Nombre = "101"},
-                                new Curso(){Nombre = "201"},
-                                new Curso(){Nombre = "301"}
+      escuela.Cursos = new List<Curso>(){
+                                new Curso{Nombre = "101", Jornada = TiposJornada.Mañana},
+                                new Curso{Nombre = "201", Jornada = TiposJornada.Mañana},
+                                new Curso{Nombre = "301", Jornada = TiposJornada.Mañana}
       };
-      //WriteLine(escuela);
-      escuela = null;
+
+      escuela.Cursos.Add(new Curso { Nombre = "102", Jornada = TiposJornada.Tarde });
+      escuela.Cursos.Add(new Curso { Nombre = "202", Jornada = TiposJornada.Tarde });
+      var otraListaCursos = new List<Curso>(){
+                                new Curso{Nombre = "401", Jornada = TiposJornada.Mañana},
+                                new Curso{Nombre = "501", Jornada = TiposJornada.Mañana},
+                                new Curso{Nombre = "502", Jornada = TiposJornada.Tarde}
+       };
+
+      escuela.Cursos.AddRange(otraListaCursos);
+
+      escuela.Cursos.RemoveAll(delegate (Curso cur)
+                                    {
+                                      return cur.Nombre == "301";
+                                    });
+      escuela.Cursos.RemoveAll((cur) => cur.Nombre == "501" && cur.Jornada == TiposJornada.Mañana);
+
       ImprimirCursosEscuela(escuela);
+    }
+    private static bool Predicado(Curso CurObj)
+    {
+      return CurObj.Nombre == "301";
     }
     private static void ImprimirCursosEscuela(Escuela escuela)
     {
