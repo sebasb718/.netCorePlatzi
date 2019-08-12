@@ -1,9 +1,11 @@
+using System;
 using System.Collections.Generic;
 
 namespace ProyectoEscuela.Entidades
 {
-  class Escuela
+  public class Escuela
   {
+    public string UniqueID { get; private set; } = Guid.NewGuid().ToString();
     private string nombre;
     public string Nombre
     {
@@ -24,9 +26,8 @@ namespace ProyectoEscuela.Entidades
       TipoEscuela = tipos;
       Pais = pais;
       Ciudad = ciudad;
-
     }
-    
+
     public override string ToString()
     {
       return $"Nombre: \"{Nombre}\", Tipo: {TipoEscuela} {System.Environment.NewLine} Pais: {Pais}, Ciudad: {Ciudad}";
