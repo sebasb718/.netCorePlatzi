@@ -1,9 +1,9 @@
-namespace CoreEscuela.Entidades
+namespace ProyectoEscuela.Entidades
 {
     public enum TiposEscuela
     {
         Primaria, 
         Secundaria, 
-        PreEscolar
+        Preescolar
     }
 }
