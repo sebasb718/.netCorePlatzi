@@ -21,52 +21,30 @@ namespace ProyectoEscuela
 
     private void CargarEvaluaciones()
     {
-      Stopwatch stopwatch = Stopwatch.StartNew();
+      var listaEvaluaciones = new List<Evaluación>();
       foreach (var curso in Escuela.Cursos)
       {
-        curso.Evaluaciones = new List<Evaluaciones>();
         foreach (var asignatura in curso.Asignaturas)
         {
           string[] nombreEval = { "Quiz", "Test 1", "Parcial", "Final", "Recuperación", "Fin Curso" };
           Random rnd = new Random();
-          List<Evaluaciones> listaEvaluaciones = new List<Evaluaciones>();
           foreach (var alumno in curso.Alumnos)
           {
             for (int i = 0; i < 5; i++)
             {
               double rndNota = rnd.NextDouble() * 5.0;
               int rndNombre = rnd.Next(0, nombreEval.Length - 1);
-              Evaluaciones evaluacion = new Evaluaciones
+              Evaluación evaluacion = new Evaluación
               {
                 Nombre = nombreEval[rndNombre],
                 Asignatura = asignatura,
-                Alumno = alumno,
                 Nota = Convert.ToSingle(Math.Round(rndNota, 1))
               };
               listaEvaluaciones.Add(evaluacion);
             }
           }
-          curso.Evaluaciones.AddRange(listaEvaluaciones);
         }
       }
-      // foreach (var curso in Escuela.Cursos)
-      // {
-      //   string[] nombreEval = { "Quiz 1", "Parcial 1", "Quiz 2", "Parcial 2", "Parcial Final" };
-      //   Random rnd = new Random();
-      //   var listaEvaluaciones = from asig in curso.Asignaturas
-      //                           from al in curso.Alumnos
-      //                           from eval in nombreEval
-      //                           select new Evaluaciones
-      //                           {
-      //                             Nombre = eval,
-      //                             Asignatura = asig,
-      //                             Alumno = al,
-      //                             Nota = Convert.ToSingle(Math.Round(rnd.NextDouble() * 5.0, 1))
-      //                           };
-      //   curso.Evaluaciones = listaEvaluaciones.ToList();
-      // }
-      stopwatch.Stop(); //se demora mas el linq que el foreach
-      string test = "";
     }
 
     private void CargarAsignaturas()
